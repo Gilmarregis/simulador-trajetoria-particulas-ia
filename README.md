@@ -1,5 +1,10 @@
 # Simulador de Movimento de Partículas com IA
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-green)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-red)
+
 ## Descrição
 Este projeto simula o movimento balístico de uma partícula sob gravidade e usa uma rede neural para prever a trajetória. É inspirado em conceitos de física teórica e machine learning, ideal para quem tem background em física e matemática.
 
