@@ -1,6 +1,9 @@
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
+from sklearn.preprocessing import MinMaxScaler
+import joblib
+
 
 # Carregar os dados do CSV gerado
 # skiprows=1 para pular o cabeçalho
@@ -10,13 +13,11 @@ t_x = dados[:, 0:2]  # Entradas: tempo e x (para prever y)
 y = dados[:, 2]  # Saída: y
 
 # Normalizar os dados de entrada e saída para melhorar o treinamento
-from sklearn.preprocessing import MinMaxScaler
-import joblib
-
 scaler_x = MinMaxScaler()
 scaler_y = MinMaxScaler()
 t_x_normalized = scaler_x.fit_transform(t_x)
 y_normalized = scaler_y.fit_transform(y.reshape(-1, 1))
+
 
 # Salvar os scalers
 joblib.dump(scaler_x, 'scaler_x.pkl')
