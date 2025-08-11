@@ -36,4 +36,4 @@ pip install numpy matplotlib tensorflow
 - Expanda adicionando mais dados ou complexidade ao modelo.
 
 ## Autor
-Gerado com assistência de IA para fins educacionais.
+Gilmar Sousa
