@@ -40,5 +40,16 @@ pip install numpy matplotlib tensorflow
 - O modelo é uma aproximação; para cenários reais, considere mais variáveis (ex: ar).
 - Expanda adicionando mais dados ou complexidade ao modelo.
 
+## Deploy em Produção
+Para hospedar online, use Streamlit Cloud (grátis e fácil):
+
+1. Crie uma conta em share.streamlit.io .
+2. Faça push do projeto para um repositório GitHub.
+3. No Streamlit Cloud, conecte ao repo e selecione app.py como arquivo principal.
+4. Deploy! Você receberá uma URL pública para acessar a app.
+Outras opções: Heroku, AWS ou Hugging Face Spaces para deploys mais avançados.
+
+
+
 ## Autor
 Gilmar Sousa
